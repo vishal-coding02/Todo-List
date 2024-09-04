@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="todo.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <i class="fa-solid fa-bolt"></i>
+          <h1>Fastodo</h1>
+        </div>
+        <div class="nav-link">
+          <p>My Lists</p>
+          <a href="#">Life</a>
+          <a href="#">Work</a>
+          <a href="#">Project A</a>
+          <div class="new-list">
+            <i class="fa-solid fa-plus"></i>
+            <p>New List</p>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="hero">
+          <div class="heading">
+            <div class="wrap-left">
+              <h2>Feb</h2>
+              <p>4</p>
+            </div>
+            <div class="wrap-right">
+              <h1>Good Afternoon.</h1>
+              <p>What's your plan for today?</p>
+            </div>
+          </div>
+          <div id="inputs">
+            <input type="text" name="input" placeholder="Add Todo" />
+            <div class="btn">
+              <button>Click</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="hello"></div>
+    </div>
+    <script src="./todo.js"></script>
+  </body>
+</html>

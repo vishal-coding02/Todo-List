@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    padding: 0 7rem;
+    background-color: #000;
+}
+
+nav{
+    width: 20%;
+    height: 100vh;
+    background-color: #403e3e69;
+    color: #fff;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo i{
+    color: #EFC050;
+    padding-right: 3px;
+}
+
+.nav-link{
+    margin-top: 8px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.nav-link a:hover{
+    color: black;
+    background: #EFC050;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.new-list{
+    display: flex;
+    padding: 20px 10px;
+    color: #b3a4a4e8;
+}
+
+.new-list i{
+    padding-right: 3px;
+}
+
+.heading{
+    display: flex;
+}
+
+.hero{
+    width: 650px;
+    height: 100%;
+    color: #fff;
+    padding: 2rem 3rem;
+}
+
+.wrap-left{
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.wrap-left h2{
+    color: #ded7d7;
+}
+
+.wrap-left p{
+    font-size: 1.5rem;
+}
+
+.wrap-right h1{
+    font-size: 2rem;
+}
+
+.wrap-right p{
+    font-size: 1.8rem;
+    color: #a8a4a4;
+}
+
+/* inputs */
+#inputs{
+    margin: 40px 18px 20px 18px;
+    display: flex;
+}
+
+#inputs input{
+    width: 100%;
+    color: #fff;
+    background-color: #403e3e69;
+    font-weight: bold;
+    padding: 25px 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+button{
+    display: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #EFC050;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.todo-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 18px;
+    background-color: #403e3e69;
+    padding: 13px 10px;
+    border-radius: 8px;
+}
+
+.todo-list .div-1{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.div-1 small{
+    color: #ded7d7;
+}
+
+.div-1 h5{
+    padding-top: 5px;
+    color: #ded7d7;
+}
+
+/* hello */
+.hello{
+    background-color: #403e3e69;
+    color: #fff;
+    height: 100vh;
+    width: 30%;
+}
